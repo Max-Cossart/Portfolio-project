@@ -1,0 +1,61 @@
+@use "../partials/mixins.scss" as m;
+@use "../partials/palette.scss" as *;
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+
+  &__title {
+    @include m.medium {
+      text-align: center;
+    }
+  }
+
+  &__languages {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @include m.small {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__language {
+    width: 17%;
+    min-width: 125px;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    transition: all 300ms ease;
+
+    &--icon {
+      width: 100%;
+      margin: 20px;
+    }
+
+    &--name {
+      position: absolute;
+      bottom: -12px;
+      transform: scale(0);
+      transition: all 300ms ease;
+    }
+
+    &:hover {
+      filter: brightness(80%);
+      transform: scale(0.9);
+    }
+
+    &:hover .stack__language--name {
+      transform: scale(1);
+    }
+  }
+}

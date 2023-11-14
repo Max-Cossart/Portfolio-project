@@ -1,0 +1,30 @@
+@use "../partials/mixins.scss" as m;
+@use "../partials/palette.scss" as *;
+
+.landing {
+  background-color: $prim-color;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+
+  &__title {
+    font-size: 36px;
+    padding-bottom: 36px;
+    color: $second-color;
+
+    @include m.medium {
+      font-size: 28px;
+    }
+  }
+
+  &__sub-title {
+    font-size: 20px;
+    color: $second-color;
+
+    @include m.medium {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use "../partials/mixins.scss" as m;
+@use "../partials/palette.scss" as *;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: $second-color;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &__list {
+    &--links {
+      color: $prim-color;
+      padding-right: 24px;
+      font-size: 14px;
+    }
+  }
+}

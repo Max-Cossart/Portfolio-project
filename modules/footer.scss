@@ -1,0 +1,26 @@
+@use "../partials/mixins.scss" as m;
+@use "../partials/palette.scss" as *;
+
+footer {
+  background-color: $prim-color;
+  text-align: center;
+  color: $second-color;
+  padding: 16px;
+}
+
+.footer {
+  &__links {
+    color: $second-color;
+    padding: 12px;
+
+    &--list {
+      font-size: 20px;
+      color: $second-color;
+      margin: 0 16px;
+    }
+  }
+
+  &__copyright {
+    font-size: 12px;
+  }
+}
