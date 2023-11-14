@@ -24,7 +24,7 @@
     </header>
 
     <main>
-      <section class="landing">
+      <section class="landing" id="landing">
         <h1 class="landing__title">Hi there, My name is Max!</h1>
         <h4 class="landing__sub-title">Junior Full-stack Developer</h4>
       </section>
@@ -46,7 +46,9 @@
             games/ watching netflix.
           </p>
           <div class="about__description--list">
-            <a href="mailto" class="about__description--link"
+            <a
+              href="mailto:mcossart1998@gmail.com"
+              class="about__description--link"
               ><i class="far fa-envelope"></i> mcossart1998@gmail.com</a
             >
             <a
@@ -55,27 +57,35 @@
               class="about__description--link"
               ><i class="fab fa-github"></i> https://github.com/Max-Cossart</a
             >
+            <a
+              href="https://linkedin.com/in/max-cossart"
+              target="blank"
+              class="about__description--link"
+              ><i class="fab fa-linkedin-in"></i>
+              https://linkedin.com/in/max-cossart</a
+            >
           </div>
         </div>
       </section>
 
       <section class="projects" id="projects">
-        <h2 class="projects__title">Here is some of my work...</h2>
+        <h2 class="projects__title">Here is some of my Work...</h2>
         <div class="projects__cards">
           <div class="card">
-            <img
-              src="http://placekitten.com/800/400
-            "
-              alt=""
-              class="card__img"
-            />
+            <img class="card__img" src="./assets/e-commerce.png" alt="" />
             <div class="card__bg"></div>
             <div class="card__description">
-              <h3 class="card__description--title">Project Name</h3>
-              <h4 class="card__description--stack">Tech Stack</h4>
+              <h3 class="card__description--title">E-Commerce</h3>
+              <h4 class="card__description--stack">
+                React JS, SCSS, FireStore
+              </h4>
               <p class="card__description--para">Description of Project</p>
               <div class="card__description--links">
-                <a href="" class="card__description--link" target="_blank">
+                <a
+                  href="https://github.com/Max-Cossart/e-commerce"
+                  class="card__description--link"
+                  target="_blank"
+                >
                   <i class="fab fa-github"></i>
                 </a>
                 <a href="" class="card__description--link" target="_blank">
@@ -134,7 +144,7 @@
       </section>
 
       <section class="stack">
-        <h2 class="stack__title">Here is the tech I've used...</h2>
+        <h2 class="stack__title">Here is the Tech I've used...</h2>
         <div class="stack__languages">
           <figure class="stack__language">
             <img
@@ -176,10 +186,57 @@
             />
             <span class="stack__language--name">JavaScript</span>
           </figure>
+          <figure class="stack__language">
+            <img class="stack__language--icon" src="./assets/java.png" alt="" />
+            <span class="stack__language--name">Java</span>
+          </figure>
+          <figure class="stack__language">
+            <img
+              class="stack__language--icon"
+              src="./assets/spring-boot-logo.png"
+              alt=""
+            />
+            <span class="stack__language--name">Spring Boot</span>
+          </figure>
+          <figure class="stack__language">
+            <img class="stack__language--icon" src="./assets/git.png" alt="" />
+            <span class="stack__language--name">Git</span>
+          </figure>
+          <figure class="stack__language">
+            <img
+              class="stack__language--icon"
+              src="./assets/typescript.png"
+              alt=""
+            />
+            <span class="stack__language--name">TypeScript</span>
+          </figure>
         </div>
       </section>
 
-      <footer></footer>
+      <footer class="footer">
+        <div class="footer__links">
+          <a href="mailto:mcossart1998@gmail.com" class="footer__links--list"
+            ><i class="far fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/Max-Cossart"
+            target="blank"
+            class="footer__links--list"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/max-cossart"
+            target="blank"
+            class="footer__links--list"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="footer__copyright">
+          <span class="footer__copyright--span"
+            >Copyright © Max Cossart 2023</span
+          >
+        </div>
+      </footer>
     </main>
   </body>
 </html>
