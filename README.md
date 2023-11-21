@@ -28,8 +28,7 @@ You can find the live version of this project [Here](https://max-cossart-portfol
 
 ## Design Goals
 
-- The goal with the design was to keep it minimalistic with colors that are pleasing to the eye, whilst also showing off some of what I know.
--
+- The goal with the design was to keep it minimalistic with colours that are pleasing to the eye, whilst also showing off some of what I know.
 
 ## Features
 
@@ -46,7 +45,7 @@ You can find the live version of this project [Here](https://max-cossart-portfol
 
 ## Future Goals
 
-- I would like to rebuild this in React(possibly Next for some additional practice) so there is less repeated code.
+- I would like to rebuild this in React (possibly Next for some additional practice) so there is less repeated code.
 
 # Struggles
 
